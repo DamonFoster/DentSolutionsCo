@@ -52,6 +52,10 @@ a {
 	color: white;
 }
 
+.gold {
+	color: gold;
+}
+
 a:link {
 	color: white;
 	text-decoration: none;
@@ -71,6 +75,28 @@ a:hover {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#aboutPic {
+	height: 500px;
+	margin:0;
+	padding: 1px;
+	background: url(./img/joshWork.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#about {
+	height: 400px;
+	background: #0066CC;
+	margin:0;
+	padding:1px;
+	color:white;
+	text-align: center;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-variant: small-caps;
 }
 
 footer {
