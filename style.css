@@ -3,21 +3,23 @@ body {
 }
 
 header{
-	background: #333333;
-	height: 70px;
+	background: black;
+	height: 76px;
 	margin:0;
 	padding:1px;
+	color: white;
 }
 
 #links {
 	background: gray;
-	height: 50px;
+	height: 40px;
 	margin: 0;
 	padding: 1px;
 }
 
 ul li{
 	display: inline;
+	float: right;
 }
 
 a {
@@ -25,7 +27,8 @@ a {
 }
 
 #home {
-	height:630px;
+	height:640px;
+
 	margin:0;
 	padding:1px;
 	background: url(./img/homepage.jpg) no-repeat center center scroll;
