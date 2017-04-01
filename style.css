@@ -1,0 +1,43 @@
+body {
+	margin:0px;
+}
+
+header{
+	background: #333333;
+	height: 70px;
+	margin:0;
+	padding:1px;
+}
+
+#links {
+	background: gray;
+	height: 50px;
+	margin: 0;
+	padding: 1px;
+}
+
+ul li{
+	display: inline;
+}
+
+a {
+	color: white;
+}
+
+#home {
+	height:630px;
+	margin:0;
+	padding:1px;
+	background: url(./img/homepage.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+	background: #333333;
+	height: 30px;
+	margin: 0;
+	padding:1px;
+}
