@@ -10,20 +10,55 @@ header{
 	color: white;
 }
 
+#invertHead {
+	background: white;
+	height: 76px;
+	margin:0;
+	padding:1px;
+	color: white;
+}
+
 #links {
 	background: gray;
 	height: 40px;
 	margin: 0;
 	padding: 1px;
+	text-align: right;
+	
 }
 
-ul li{
+#invertLinks {
+	background: gray;
+	height: 40px;
+	margin: 0;
+	padding: 1px;
+	text-align: right;
+}
+
+ul {
 	display: inline;
-	float: right;
+	vertical-align: middle;
+	text-align: center;
+	padding: 1px 10px;
+}
+
+li {
+	display: inline;
+	padding: 1px 10px;
+	font-size: 30px;
 }
 
 a {
 	color: white;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
 }
 
 #home {
