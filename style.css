@@ -95,8 +95,8 @@ a:hover {
 	padding:1px;
 	color:white;
 	text-align: center;
-	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-variant: small-caps;
+	font-family: "Open Sans", sans-serif;
+	/*font-variant: small-caps;*/
 }
 
 footer {
