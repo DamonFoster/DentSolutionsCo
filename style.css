@@ -99,6 +99,11 @@ a:hover {
 	/*font-variant: small-caps;*/
 }
 
+.aboutP {
+	width: 900px;
+	margin: auto;
+}
+
 footer {
 	background: #333333;
 	height: 30px;
