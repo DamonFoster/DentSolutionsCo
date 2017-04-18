@@ -112,6 +112,7 @@ a:hover {
 	border-right: 2px solid black;
 	display: inline-block;
 	margin-top: 40px;
+	font-family: Georgia, serif;
 }
 
 .expU {
@@ -131,6 +132,7 @@ a:hover {
 	line-height: 5px;
 	display: inline-block;
 	margin-top: 40px;
+	font-family: Georgia, serif;
 }
 
 #about {
