@@ -77,15 +77,28 @@ a:hover {
     -o-background-size: cover;
 }
 
+.nav {
+}
+
 #aboutPic {
 	height: 500px;
 	margin:0;
 	padding: 1px;
-	background: url(./assets/img/joshWork.jpg) no-repeat center center scroll;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/img/joshWork.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.PDR {
+	color: white;
+	font-size: 40px;
+	font-family: "Open Sans", sans-serif;
+	font-variant: small-caps;
+	text-align: center;
+	margin-top: 200px;
+	letter-spacing: 1px;
 }
 
 #about {
