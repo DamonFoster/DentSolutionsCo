@@ -433,3 +433,9 @@ footer {
 	margin: 0;
 	padding:1px;
 }
+
+.cr {
+	color: white;
+	text-align: center;
+	margin-top: 7px;
+}
