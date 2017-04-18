@@ -62,7 +62,7 @@ a:link {
 }
 
 a:hover {
-	color: red;
+	color: gold;
 }
 
 #home {
@@ -121,7 +121,7 @@ a:hover {
 }
 
 .expPara {
-	line-height: 15px;
+	line-height: 20px;
 	width: 375px;
 	margin: auto;
 }
@@ -349,6 +349,82 @@ a:hover {
 	-webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+#contact {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/img/contactBack.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.forEst {
+	text-align: center;
+}
+
+.estPara {
+	text-align: center;
+	line-height: 25px;
+	font-family: Georgia, serif;
+	color: white;
+	letter-spacing: 0.7px;
+}
+
+.phone {
+	display: inline-block;
+	width: 400px;
+	margin-left: 100px;
+	margin-top: 130px;
+}
+
+.cell {
+	width: 300px;
+	height: 300px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+.shop {
+	display: inline-block;
+	width: 400px;
+	margin-left: 100px;
+}
+
+.map {
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+.shopPara {
+	text-align: center;
+	line-height: 25px;
+	font-family: Georgia, serif;
+	color: white;
+	letter-spacing: 0.7px;
+}
+
+.fb {
+	display: inline-block;
+	width: 400px;
+	margin-left: 100px;
+}
+
+.icon {
+	width: 300px;
+	height: 300px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+.fbPara {
+	text-align: center;
+	letter-spacing: 0.7px;
+	width: 380px;
+	line-height: 25px;
+	font-family: Georgia, serif;
+	color: white;
+	margin-bottom: 60px;
 }
 
 footer {
