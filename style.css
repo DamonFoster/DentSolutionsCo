@@ -509,3 +509,87 @@ footer {
 		display: none;
 	}
 }
+
+@media (max-width: 767px) {
+
+	#info {
+		height: 580px;
+	}
+
+	.exp {
+	width: 600px;
+	text-align: center;
+	line-height: 5px;
+	border-bottom: 2px solid black;
+	border-right: 0px;
+	display: inline-block;
+	margin-left: 65px;
+	margin-top: 20px;
+	}
+
+	.afford {
+	width: 600px;
+	text-align: center;
+	line-height: 5px;
+	border-right: 0px;
+	display: inline-block;
+	margin-left: 65px;
+	margin-top: 20px;
+
+	}
+
+	.expPara {
+		width: 500px;
+		margin-bottom: 20px;
+	}
+
+	.aboutP {
+		width: 650px;
+		font-size: 15px;
+	}
+
+	#about {
+		height: 500px;
+	}
+
+	.slides {
+		width: 550px;
+	}
+
+	.bna {
+		height: 400px;
+		width: 400px;
+		margin-left: 75px;
+	}
+
+	.estimate {
+		margin-left: 270px;
+	}
+
+	.phone {
+		margin-left: 170px;
+		margin-bottom: 30px;
+	}
+
+	.cell {
+		margin-left: 45px;
+	}
+
+	.shop {
+		margin-left: 170px;
+		margin-bottom: 30px;
+	}
+
+	.map {
+		margin-left: 45px;
+	}
+
+	.fb {
+		margin-left: 170px;
+	}
+
+	.icon {
+		margin-left: 45px;
+	}
+
+}
