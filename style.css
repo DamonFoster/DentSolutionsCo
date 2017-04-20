@@ -320,12 +320,12 @@ a:hover {
 	margin-left: 150px;
 }
 
-.bna:hover
+/*.bna:hover
 {
         -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
         transform: scale(1.5);
-}
+}*/
 
 .estimate {
 	margin-left: 690px;
@@ -438,4 +438,74 @@ footer {
 	color: white;
 	text-align: center;
 	margin-top: 7px;
+}
+
+@media (max-width: 480px) {
+
+	#home {
+		background: url(./assets/img/dscLogo.jpg);
+	}
+
+	li{
+		font-size: 21px;
+	}
+
+	#about {
+		display: none;
+	}
+
+	.exp {
+		border-right: 0px;
+		border-bottom: 2px solid black;
+	}
+
+	.expPara {
+		margin-bottom: 20px;
+	}
+
+	.workPara {
+		width:380px;
+	}
+
+	.slides {
+		width: 450px;
+	}
+
+	.bna {
+		height: 300px;
+		width: 300px;
+		margin-left: 75px;
+	}
+
+	.estimate {
+		margin-left: 125px;
+	}
+
+	.phone {
+		margin-left: 25px;
+	}
+
+	.cell {
+		margin-left: 45px;
+	}
+
+	.shop {
+		margin-left: 25px;
+	}
+
+	.map {
+		margin-left: 45px;
+	}
+
+	.fb {
+		margin-left: 25px;
+	}
+
+	.icon {
+		margin-left: 45px;
+	}
+
+	footer {
+		display: none;
+	}
 }
