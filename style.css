@@ -102,14 +102,18 @@ a:hover {
 }
 
 #info {
-	height: 200px;
+	/*height: 200px;*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding-bottom: 20px;
 }
 
 .exp {
 	width: 390px;
 	text-align: center;
 	line-height: 5px;
-	border-right: 2px solid black;
+	border: 2px solid black;
 	display: inline-block;
 	margin-top: 40px;
 	font-family: Georgia, serif;
@@ -124,6 +128,7 @@ a:hover {
 	line-height: 20px;
 	width: 375px;
 	margin: auto;
+	padding-bottom: 10px;
 }
 
 .afford {
@@ -133,16 +138,18 @@ a:hover {
 	display: inline-block;
 	margin-top: 40px;
 	font-family: Georgia, serif;
+	border: 2px solid black;
 }
 
 #about {
-	height: 470px;
+	/*height: 470px;*/
 	background: #0066CC;
 	margin:0;
 	padding:1px;
 	color:white;
 	text-align: center;
 	font-family: "Open Sans", sans-serif;
+	padding-bottom: 20px;
 	/*font-variant: small-caps;*/
 }
 
@@ -158,7 +165,7 @@ a:hover {
 }
 
 .aboutP {
-	width: 1100px;
+	width: 80%;
 	margin: auto;
 	font-size: 20px;
 	line-height: 30px;
@@ -174,7 +181,7 @@ a:hover {
 }
 
 .mySlides {
-    display: none;
+    
     
 }
 
@@ -283,10 +290,11 @@ a:hover {
 }
 
 .slides {
-	width: 900px;
-	height: 650px;
+	width: 90%;
+	height: 65%;
 	margin: auto;
 	margin-top: 150px;
+
 }
 
 .prev2, .next2 {
@@ -315,9 +323,10 @@ a:hover {
 }
 
 .bna {
-	width: 600px;
-	height: 500px;
-	margin-left: 150px;
+	width: 65%;
+	height: 100%;
+	display: block;
+	margin: auto;
 }
 
 /*.bna:hover
@@ -328,7 +337,9 @@ a:hover {
 }*/
 
 .estimate {
-	margin-left: 690px;
+	display: flex;
+	flex: row;
+	justify-content: space-around;
 }
 
 .estBtn {
@@ -342,6 +353,7 @@ a:hover {
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .estBtn:hover {
@@ -376,6 +388,7 @@ a:hover {
 	width: 400px;
 	margin-left: 100px;
 	margin-top: 130px;
+	margin-bottom: 30px;
 }
 
 .cell {
@@ -389,6 +402,7 @@ a:hover {
 	display: inline-block;
 	width: 400px;
 	margin-left: 100px;
+	margin-bottom: 30px;
 }
 
 .map {
@@ -455,7 +469,6 @@ footer {
 	}
 
 	.exp {
-		border-right: 0px;
 		border-bottom: 2px solid black;
 	}
 
@@ -477,9 +490,9 @@ footer {
 		margin-left: 75px;
 	}
 
-	.estimate {
+	/*.estimate {
 		margin-left: 125px;
-	}
+	}*/
 
 	.phone {
 		margin-left: 25px;
@@ -510,7 +523,7 @@ footer {
 	}
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 
 	#info {
 		height: 580px;
@@ -592,4 +605,5 @@ footer {
 		margin-left: 45px;
 	}
 
-}
+}*/
+
